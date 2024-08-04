@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+header {
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9%;
+    box-shadow: 0 5px 10px #000;
+    }
+
+    header nav ul li {
+        position: static;
+        float: left;
+    }
+    
+    header nav ul li a {
+        padding:15px;
+        color: #000;
+        font-size: 16px;
+        display: block; 
+    }
+    
+    header nav ul li a:hover {
+        background: #000;
+        color: #ffffff;
+    }
+    
+    nav ul li ul {
+        position: static;
+        left: 0;
+        width: 160px;
+        background: #ffffff;
+        display: none;
+    }
+    
+    nav ul li ul li {
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, .1);
+    }
+    
+    nav ul li ul li ul {
+        left: 100px;
+        top: 0;
+    }
+    
+    nav ul li:hover > ul {
+        display: flex;
+    }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.3rem;
+  }
+  
+  section {
+    padding: 1rem;
+  }
+ 
+ 
+ 
+ 
+  .banner {
+    background-image: url(img/banner1.png); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(34, 29, 29);
+    text-align: start;
+    padding: 200px 0;
+    position: relative
+  }
+
+  .banner h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+
+  .banner p {
+    font-size: medium;
+    color: black;
+    margin-bottom: 30px;
+    position: absolute; 
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+
+  .banner button {
+    background-color: #a44288;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute; 
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .banner button:hover {
+    background-color: #8b1760;
+    }
